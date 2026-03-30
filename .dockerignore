@@ -1,0 +1,12 @@
+node_modules
+.next
+.git
+.gitignore
+.env*.local
+*.md
+deploy/
+.agents/
+.claude/
+tmp_*
+scrape_google.py
+db_dump.sql
