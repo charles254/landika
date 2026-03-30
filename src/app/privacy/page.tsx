@@ -63,7 +63,7 @@ export default function PrivacyPage() {
     },
     {
       title: '10. Contact Us',
-      content: `For privacy-related questions, data access requests, or complaints, contact our Data Protection Officer at: Email: agent@landika.net | Address: Westlands, Nairobi, Kenya | Phone: +254 700 000 000. You may also contact the Office of the Data Protection Commissioner, Kenya for complaints regarding data processing.`,
+      content: `For privacy-related questions, data access requests, or complaints, contact our Data Protection Officer at: Email: agent@landika.net | Address: Westlands, Nairobi, Kenya | Phone: +254 725 942 927. You may also contact the Office of the Data Protection Commissioner, Kenya for complaints regarding data processing.`,
     },
   ]
 

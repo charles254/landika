@@ -61,7 +61,7 @@ export default function PropertyCard({ property, locationName }: PropertyCardPro
             </div>
             
             <WhatsAppButton 
-              phoneNumber="+254700000000" 
+              phoneNumber="+254725942927" 
               message={`Hello Landika Agent, I am interested in property: ${property.title} in ${locationName}.`}
               className="btn-primary"
             />

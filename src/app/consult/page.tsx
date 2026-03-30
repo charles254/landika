@@ -107,7 +107,7 @@ export default function ConsultPage() {
               type="tel" 
               name="phone"
               required
-              placeholder="+254 700 000 000"
+              placeholder="+254 725 942 927"
               className="input-glass"
               value={formData.phone}
               onChange={handleChange}

@@ -185,6 +185,33 @@ section {
   to { transform: rotate(360deg); }
 }
 
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+  70% { box-shadow: 0 0 0 12px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+
+/* Floating WhatsApp button */
+.floating-whatsapp {
+  animation: pulse-ring 2s ease-in-out infinite;
+}
+.floating-whatsapp:hover {
+  transform: scale(1.1) !important;
+}
+
+/* Social proof toast */
+.social-proof-toast {
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.social-proof-show {
+  opacity: 1;
+  transform: translateX(0);
+}
+.social-proof-hide {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
 /* Touch target minimum sizes */
 .btn {
   min-height: 48px;
@@ -303,5 +330,25 @@ section {
   /* Stack step cards vertically on mobile */
   .step-card {
     flex-direction: column !important;
+  }
+
+  /* Floating WhatsApp — smaller on mobile */
+  .floating-whatsapp {
+    width: 52px !important;
+    height: 52px !important;
+    bottom: 1.25rem !important;
+    right: 1.25rem !important;
+  }
+  .floating-whatsapp svg {
+    width: 26px;
+    height: 26px;
+  }
+
+  /* Social proof toast — full width on mobile */
+  .social-proof-toast {
+    left: 1rem !important;
+    right: 1rem !important;
+    bottom: 5rem !important;
+    max-width: none !important;
   }
 }
