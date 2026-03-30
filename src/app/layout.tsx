@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Outfit, Inter } from 'next/font/google'
+import Script from 'next/script'
 import Link from 'next/link'
 import Logo from '@/components/Logo'
 import MobileNav from '@/components/MobileNav'
@@ -250,13 +251,14 @@ export default function RootLayout({
         </footer>
         <FloatingWhatsApp />
         <SocialProof />
-        {/* GA4 — loaded after page render to avoid blocking LCP */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFBY61Y2G5" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TFBY61Y2G5');`,
-          }}
+        {/* GA4 — deferred until after hydration to avoid blocking LCP */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-TFBY61Y2G5"
+          strategy="afterInteractive"
         />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TFBY61Y2G5');`}
+        </Script>
       </body>
     </html>
   )
