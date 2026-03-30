@@ -12,13 +12,14 @@ export default function PropertyCard({ property, locationName }: PropertyCardPro
   return (
     <div className="glass glass-card glass-hover" style={{ overflow: 'hidden', display: 'flex', flexDirection: 'column', borderColor: 'rgba(212, 175, 55, 0.1)' }}>
       <div className="img-container" style={{ height: '280px', position: 'relative' }}>
-        <Image 
-          src={property.images[0]} 
+        <Image
+          src={property.images[0]}
           alt={`Verified ${property.title} for sale in ${locationName}, Kenya - Landika Real Estate Agent`}
           fill
           className="img-hover"
           style={{ objectFit: 'cover' }}
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 384px"
+          quality={65}
         />
         {property.verificationStatus === 'verified' ? (
           <div style={{

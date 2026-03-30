@@ -206,16 +206,16 @@ export const getPropertiesByLocation = async (locationSlug: string, limit: numbe
     // All free, watermark-free from Pexels (configured in next.config.mjs)
     // Replace with your own photos: swap files in public/assets/mock-plots/ as plot-1.jpg to plot-10.jpg
     const plotImages = [
-      'https://images.pexels.com/photos/30255135/pexels-photo-30255135.jpeg?auto=compress&cs=tinysrgb&w=1200', // Aerial farmland Mau Narok Kenya — real Kenya location
-      'https://images.pexels.com/photos/3030296/pexels-photo-3030296.jpeg?auto=compress&cs=tinysrgb&w=1200', // Aerial subdivided farm land plots — looks like plot demarcation
-      'https://images.pexels.com/photos/8747714/pexels-photo-8747714.jpeg?auto=compress&cs=tinysrgb&w=1200', // Aerial agricultural land parcels
-      'https://images.pexels.com/photos/16419878/pexels-photo-16419878.jpeg?auto=compress&cs=tinysrgb&w=1200', // Red dirt road through countryside — typical Kenyan access road
-      'https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&w=1200', // African savanna with acacia tree — Kajiado/Kitengela feel
-      'https://images.pexels.com/photos/2832040/pexels-photo-2832040.jpeg?auto=compress&cs=tinysrgb&w=1200', // Lush green farmland from above — Kiambu/Central feel
-      'https://images.pexels.com/photos/1525612/pexels-photo-1525612.jpeg?auto=compress&cs=tinysrgb&w=1200', // Dirt track through open grass terrain
-      'https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1200', // Wide open green plains with hills — Nakuru/Naivasha feel
-      'https://images.pexels.com/photos/1166209/pexels-photo-1166209.jpeg?auto=compress&cs=tinysrgb&w=1200', // Dry savanna with scattered vegetation — Machakos/Joska feel
-      'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1200', // Sunny open field with blue sky — clean plot appearance
+      'https://images.pexels.com/photos/30255135/pexels-photo-30255135.jpeg?auto=compress&cs=tinysrgb&w=640', // Aerial farmland Mau Narok Kenya — real Kenya location
+      'https://images.pexels.com/photos/3030296/pexels-photo-3030296.jpeg?auto=compress&cs=tinysrgb&w=640', // Aerial subdivided farm land plots — looks like plot demarcation
+      'https://images.pexels.com/photos/8747714/pexels-photo-8747714.jpeg?auto=compress&cs=tinysrgb&w=640', // Aerial agricultural land parcels
+      'https://images.pexels.com/photos/16419878/pexels-photo-16419878.jpeg?auto=compress&cs=tinysrgb&w=640', // Red dirt road through countryside — typical Kenyan access road
+      'https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&w=640', // African savanna with acacia tree — Kajiado/Kitengela feel
+      'https://images.pexels.com/photos/2832040/pexels-photo-2832040.jpeg?auto=compress&cs=tinysrgb&w=640', // Lush green farmland from above — Kiambu/Central feel
+      'https://images.pexels.com/photos/1525612/pexels-photo-1525612.jpeg?auto=compress&cs=tinysrgb&w=640', // Dirt track through open grass terrain
+      'https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=640', // Wide open green plains with hills — Nakuru/Naivasha feel
+      'https://images.pexels.com/photos/1166209/pexels-photo-1166209.jpeg?auto=compress&cs=tinysrgb&w=640', // Dry savanna with scattered vegetation — Machakos/Joska feel
+      'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=640', // Sunny open field with blue sky — clean plot appearance
     ];
     return plotImages[(index - 1) % plotImages.length];
   }
