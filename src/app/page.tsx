@@ -82,14 +82,14 @@ export default async function Home() {
         {/* Hero Background Image */}
         <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
           <Image
-            src="https://images.pexels.com/photos/3030296/pexels-photo-3030296.jpeg?auto=compress&cs=tinysrgb&w=1200&q=75"
+            src="https://images.pexels.com/photos/3030296/pexels-photo-3030296.jpeg?auto=compress&cs=tinysrgb&w=800&q=60"
             alt="Aerial view of subdivided land plots in Kenya — verified real estate investment opportunities"
             fill
             style={{ objectFit: 'cover', objectPosition: 'center 40%' }}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 1200px"
+            sizes="(max-width: 768px) 100vw, 800px"
             priority
             fetchPriority="high"
-            quality={70}
+            quality={50}
           />
           <div style={{
             position: 'absolute', inset: 0,

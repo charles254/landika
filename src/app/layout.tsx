@@ -92,14 +92,6 @@ export default function RootLayout({
 
   return (
     <html lang="en" className={`${outfit.variable} ${inter.variable}`}>
-      <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFBY61Y2G5" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TFBY61Y2G5');`,
-          }}
-        />
-      </head>
       <body>
         <script
           type="application/ld+json"
@@ -258,6 +250,13 @@ export default function RootLayout({
         </footer>
         <FloatingWhatsApp />
         <SocialProof />
+        {/* GA4 — loaded after page render to avoid blocking LCP */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TFBY61Y2G5" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-TFBY61Y2G5');`,
+          }}
+        />
       </body>
     </html>
   )
