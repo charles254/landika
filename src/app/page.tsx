@@ -81,14 +81,18 @@ export default async function Home() {
       }}>
         {/* Hero Background Image */}
         <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-          {/* Direct img tag for hero — bypasses Next.js optimizer for faster LCP */}
-          <img
-            src="/assets/hero-land.jpg"
-            alt="Aerial view of subdivided land plots in Kenya — verified real estate investment opportunities"
-            fetchPriority="high"
-            decoding="async"
-            style={{ position: 'absolute', width: '100%', height: '100%', inset: 0, objectFit: 'cover', objectPosition: 'center 40%' }}
-          />
+          {/* Self-hosted hero: AVIF 13KB / WebP 28KB / JPEG 54KB fallback */}
+          <picture>
+            <source srcSet="/assets/hero-land.avif" type="image/avif" />
+            <source srcSet="/assets/hero-land.webp" type="image/webp" />
+            <img
+              src="/assets/hero-land.jpg"
+              alt="Aerial view of subdivided land plots in Kenya — verified real estate investment opportunities"
+              fetchPriority="high"
+              decoding="async"
+              style={{ position: 'absolute', width: '100%', height: '100%', inset: 0, objectFit: 'cover', objectPosition: 'center 40%' }}
+            />
+          </picture>
           <div style={{
             position: 'absolute', inset: 0,
             background: 'linear-gradient(to bottom, rgba(5, 7, 10, 0.78) 0%, rgba(5, 7, 10, 0.65) 50%, rgba(5, 7, 10, 0.88) 100%)',
