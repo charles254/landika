@@ -74,9 +74,10 @@ export default function ConsultPage() {
         <form onSubmit={handleSubmit} className="glass animate-fade-in" style={{ padding: 'clamp(2rem, 4vw, 5rem)', border: '1px solid rgba(212, 175, 55, 0.15)' }}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 250px), 1fr))', gap: '2.5rem', marginBottom: '2.5rem' }}>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
-              <label style={{ fontSize: '0.9rem', color: 'var(--primary)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Full Name</label>
-              <input 
-                type="text" 
+              <label htmlFor="consult-name" style={{ fontSize: '0.9rem', color: 'var(--primary)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Full Name</label>
+              <input
+                id="consult-name"
+                type="text"
                 name="name"
                 required
                 placeholder="e.g. John Doe"
@@ -87,9 +88,10 @@ export default function ConsultPage() {
               />
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
-              <label style={{ fontSize: '0.9rem', color: 'var(--primary)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Email Address</label>
-              <input 
-                type="email" 
+              <label htmlFor="consult-email" style={{ fontSize: '0.9rem', color: 'var(--primary)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Email Address</label>
+              <input
+                id="consult-email"
+                type="email"
                 name="email"
                 required
                 placeholder="john@example.com"
@@ -102,9 +104,10 @@ export default function ConsultPage() {
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem', marginBottom: '2.5rem' }}>
-            <label style={{ fontSize: '0.9rem', color: 'var(--primary)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Phone Number</label>
-            <input 
-              type="tel" 
+            <label htmlFor="consult-phone" style={{ fontSize: '0.9rem', color: 'var(--primary)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Phone Number</label>
+            <input
+              id="consult-phone"
+              type="tel"
               name="phone"
               required
               placeholder="+254 725 942 927"

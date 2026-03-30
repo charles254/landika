@@ -316,7 +316,7 @@ export default async function Home() {
                     color: 'var(--primary)', fontSize: '0.85rem', fontWeight: '800', flexShrink: 0
                   }}>0{i + 1}</div>
                   <div>
-                    <h4 style={{ fontSize: '1.1rem', marginBottom: '0.4rem', color: '#fff' }}>{item.title}</h4>
+                    <h3 style={{ fontSize: '1.1rem', marginBottom: '0.4rem', color: '#fff' }}>{item.title}</h3>
                     <p style={{ color: 'var(--text-muted)', lineHeight: '1.65', fontSize: '0.95rem' }}>{item.desc}</p>
                   </div>
                 </div>

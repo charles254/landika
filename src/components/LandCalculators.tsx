@@ -61,10 +61,11 @@ export default function LandCalculators() {
       {activeTab === 'stamp' ? (
         <div className="animate-fade-in">
           <div style={{ marginBottom: '2rem' }}>
-            <label style={{ display: 'block', marginBottom: '0.8rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>Property Value (KES)</label>
-            <input 
-              type="number" 
-              className="input-glass" 
+            <label htmlFor="property-value" style={{ display: 'block', marginBottom: '0.8rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>Property Value (KES)</label>
+            <input
+              id="property-value"
+              type="number"
+              className="input-glass"
               style={{ width: '100%' }}
               value={propertyValue}
               onChange={(e) => setPropertyValue(Number(e.target.value))}
@@ -114,20 +115,22 @@ export default function LandCalculators() {
         <div className="animate-fade-in">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 200px), 1fr))', gap: '1.5rem', marginBottom: '2rem' }}>
             <div>
-              <label style={{ display: 'block', marginBottom: '0.8rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>Purchase Price (KES)</label>
-              <input 
-                type="number" 
-                className="input-glass" 
+              <label htmlFor="purchase-price" style={{ display: 'block', marginBottom: '0.8rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>Purchase Price (KES)</label>
+              <input
+                id="purchase-price"
+                type="number"
+                className="input-glass"
                 style={{ width: '100%' }}
                 value={totalPrice}
                 onChange={(e) => setTotalPrice(Number(e.target.value))}
               />
             </div>
             <div>
-              <label style={{ display: 'block', marginBottom: '0.8rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>Initial Deposit (KES)</label>
-              <input 
-                type="number" 
-                className="input-glass" 
+              <label htmlFor="deposit" style={{ display: 'block', marginBottom: '0.8rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>Initial Deposit (KES)</label>
+              <input
+                id="deposit"
+                type="number"
+                className="input-glass"
                 style={{ width: '100%' }}
                 value={deposit}
                 onChange={(e) => setDeposit(Number(e.target.value))}
@@ -135,10 +138,11 @@ export default function LandCalculators() {
             </div>
           </div>
           <div style={{ marginBottom: '2.5rem' }}>
-            <label style={{ display: 'block', marginBottom: '0.8rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>Payment Period (Months)</label>
-            <input 
-              type="range" 
-              min="1" 
+            <label htmlFor="payment-months" style={{ display: 'block', marginBottom: '0.8rem', fontSize: '0.9rem', color: 'var(--text-muted)' }}>Payment Period (Months)</label>
+            <input
+              id="payment-months"
+              type="range"
+              min="1"
               max="24" 
               className="range-gold"
               style={{ width: '100%', accentColor: 'var(--primary)' }}

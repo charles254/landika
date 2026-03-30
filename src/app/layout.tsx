@@ -141,7 +141,7 @@ export default function RootLayout({
               background: 'rgba(212, 175, 55, 0.04)', border: '1px solid rgba(212, 175, 55, 0.1)',
             }}>
               <div>
-                <h3 style={{ fontSize: '1.4rem', marginBottom: '0.4rem', color: '#fff' }}>Ready to secure your land?</h3>
+                <h2 style={{ fontSize: '1.4rem', marginBottom: '0.4rem', color: '#fff' }}>Ready to secure your land?</h2>
                 <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>Book a free consultation with a registered agent today.</p>
               </div>
               <Link href="/consult" className="btn btn-primary" style={{ padding: '1rem 2.5rem', whiteSpace: 'nowrap' }}>
@@ -166,7 +166,7 @@ export default function RootLayout({
 
               {/* Quick Links */}
               <div>
-                <h4 style={{ marginBottom: '1.5rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.15em', color: 'var(--primary)', fontWeight: '800' }}>Quick Links</h4>
+                <h3 style={{ marginBottom: '1.5rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.15em', color: 'var(--primary)', fontWeight: '800' }}>Quick Links</h3>
                 <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.9rem' }}>
                   {[
                     { label: 'Browse Portfolio', href: '/plots-for-sale' },
@@ -181,7 +181,7 @@ export default function RootLayout({
 
               {/* Guides */}
               <div>
-                <h4 style={{ marginBottom: '1.5rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.15em', color: 'var(--primary)', fontWeight: '800' }}>Guides</h4>
+                <h3 style={{ marginBottom: '1.5rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.15em', color: 'var(--primary)', fontWeight: '800' }}>Guides</h3>
                 <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.9rem' }}>
                   {[
                     { label: 'How to Buy Land', href: '/guides/how-to-buy-land-in-kenya' },
@@ -198,7 +198,7 @@ export default function RootLayout({
 
               {/* Locations */}
               <div>
-                <h4 style={{ marginBottom: '1.5rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.15em', color: 'var(--primary)', fontWeight: '800' }}>Top Locations</h4>
+                <h3 style={{ marginBottom: '1.5rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.15em', color: 'var(--primary)', fontWeight: '800' }}>Top Locations</h3>
                 <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.9rem' }}>
                   {[
                     { label: 'Ruiru, Kiambu', href: '/plots-for-sale/kiambu/ruiru' },
@@ -214,7 +214,7 @@ export default function RootLayout({
 
               {/* Contact */}
               <div>
-                <h4 style={{ marginBottom: '1.5rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.15em', color: 'var(--primary)', fontWeight: '800' }}>Contact</h4>
+                <h3 style={{ marginBottom: '1.5rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.15em', color: 'var(--primary)', fontWeight: '800' }}>Contact</h3>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', fontSize: '0.9rem' }}>
                   <div>
                     <div style={{ color: 'var(--text-muted)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.25rem' }}>Office</div>
