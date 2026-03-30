@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Kiambu",
+    "slug": "kiambu",
+    "type": "county",
+    "description": "Kiambu County is known for its cool climate and proximity to Nairobi, making it a prime residential area.",
+    "towns": [
+      {
+        "name": "Ruiru",
+        "slug": "ruiru",
+        "type": "town",
+        "description": "Ruiru is a fast-growing industrial and residential hub located along the Thika Superhighway.",
+        "areas": ["Kamakis", "Mugutha", "Eastern Bypass"]
+      },
+      {
+        "name": "Thika",
+        "slug": "thika",
+        "type": "town",
+        "description": "Thika is an industrial town and a major commercial center in Kiambu County.",
+        "areas": ["Landless", "Thome", "Gretsa"]
+      }
+    ]
+  },
+  {
+    "name": "Kajiado",
+    "slug": "kajiado",
+    "type": "county",
+    "description": "Kajiado County offers vast land layouts and major development projects like the SGR.",
+    "towns": [
+      {
+        "name": "Kitengela",
+        "slug": "kitengela",
+        "type": "town",
+        "description": "Kitengela is a cosmopolitan town favored for its affordable land and development potential.",
+        "areas": ["Acacia", "Milimani", "Noonkopir"]
+      },
+      {
+        "name": "Ngong",
+        "slug": "ngong",
+        "type": "town",
+        "description": "Ngong is famous for the Ngong Hills and its scenic residential properties.",
+        "areas": ["Vet", "Kimuka", "Matasia"]
+      }
+    ]
+  },
+  {
+    "name": "Nakuru",
+    "slug": "nakuru",
+    "type": "county",
+    "description": "Nakuru is the agricultural and tourism heart of the Rift Valley.",
+    "towns": [
+      {
+        "name": "Naivasha",
+        "slug": "naivasha",
+        "type": "town",
+        "description": "Naivasha is a major tourist destination with booming real estate in the lake vicinity.",
+        "areas": ["Moi South Lake", "Karagita", "Kinungi"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npm run:*)",
+      "Bash(node node_modules/next/dist/bin/next dev --port 3002)",
+      "Bash(find '/c/Users/ENG. KIPTOO/Desktop/Landika' -maxdepth 1 -name next.config* -o -name package.json -o -name .env*)",
+      "WebSearch",
+      "WebFetch(domain:contempothemes.com)"
+    ]
+  }
+}
