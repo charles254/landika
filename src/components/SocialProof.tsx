@@ -124,7 +124,7 @@ export default function SocialProof() {
           {' '}
           <strong style={{ color: '#fff' }}>{entry.location}</strong>
         </div>
-        <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginTop: '0.25rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+        <div style={{ fontSize: '0.7rem', color: '#c4cdd8', marginTop: '0.25rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
           {entry.time}
         </div>
       </div>
@@ -132,16 +132,19 @@ export default function SocialProof() {
       {/* Dismiss */}
       <button
         onClick={() => setDismissed(true)}
-        aria-label="Dismiss"
+        aria-label="Dismiss notification"
+        title="Dismiss"
         style={{
           background: 'none',
           border: 'none',
-          color: 'var(--text-muted)',
+          color: '#c4cdd8',
           cursor: 'pointer',
           padding: '0.25rem',
-          fontSize: '1rem',
+          fontSize: '1.2rem',
           lineHeight: 1,
           flexShrink: 0,
+          minWidth: '24px',
+          minHeight: '24px',
         }}
       >
         &times;
