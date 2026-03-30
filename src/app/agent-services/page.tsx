@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title: 'Agent Services - Kenya',
   description: 'Professional real estate agent services in Kenya: title verification at Ardhi House, legal conveyancing, market intelligence & boundary surveys.',
   alternates: {
-    canonical: 'https://landika.co.ke/agent-services',
+    canonical: 'https://landika.net/agent-services',
   },
   openGraph: {
     title: 'Agent Services - Kenya',
     description: 'Professional real estate agent services in Kenya: title verification at Ardhi House, legal conveyancing, market intelligence & boundary surveys.',
-    url: 'https://landika.co.ke/agent-services',
+    url: 'https://landika.net/agent-services',
   },
 }
 
@@ -44,8 +44,8 @@ export default function AgentServices() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.co.ke' },
-      { '@type': 'ListItem', position: 2, name: 'Agent Services', item: 'https://landika.co.ke/agent-services' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.net' },
+      { '@type': 'ListItem', position: 2, name: 'Agent Services', item: 'https://landika.net/agent-services' },
     ],
   }
 

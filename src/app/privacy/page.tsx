@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'Landika Real Estate Agent privacy policy. How we collect, use, and protect your personal data in compliance with the Kenya Data Protection Act 2019.',
   alternates: {
-    canonical: 'https://landika.co.ke/privacy',
+    canonical: 'https://landika.net/privacy',
   },
   openGraph: {
     title: 'Privacy Policy - Landika Real Estate Agent',
     description: 'How Landika collects, uses, and protects your personal data.',
-    url: 'https://landika.co.ke/privacy',
+    url: 'https://landika.net/privacy',
   },
 }
 
@@ -19,8 +19,8 @@ export default function PrivacyPage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.co.ke' },
-      { '@type': 'ListItem', position: 2, name: 'Privacy Policy', item: 'https://landika.co.ke/privacy' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.net' },
+      { '@type': 'ListItem', position: 2, name: 'Privacy Policy', item: 'https://landika.net/privacy' },
     ],
   }
 
@@ -47,7 +47,7 @@ export default function PrivacyPage() {
     },
     {
       title: '6. Your Rights',
-      content: `Under the Kenya Data Protection Act 2019, you have the right to: access the personal data we hold about you; request correction of inaccurate or incomplete data; request deletion of your personal data (subject to legal retention requirements); object to processing of your data for specific purposes; withdraw consent for data processing at any time; lodge a complaint with the Office of the Data Protection Commissioner, Kenya. To exercise any of these rights, contact us at agent@landika.co.ke.`,
+      content: `Under the Kenya Data Protection Act 2019, you have the right to: access the personal data we hold about you; request correction of inaccurate or incomplete data; request deletion of your personal data (subject to legal retention requirements); object to processing of your data for specific purposes; withdraw consent for data processing at any time; lodge a complaint with the Office of the Data Protection Commissioner, Kenya. To exercise any of these rights, contact us at agent@landika.net.`,
     },
     {
       title: '7. Data Retention',
@@ -63,7 +63,7 @@ export default function PrivacyPage() {
     },
     {
       title: '10. Contact Us',
-      content: `For privacy-related questions, data access requests, or complaints, contact our Data Protection Officer at: Email: agent@landika.co.ke | Address: Westlands, Nairobi, Kenya | Phone: +254 700 000 000. You may also contact the Office of the Data Protection Commissioner, Kenya for complaints regarding data processing.`,
+      content: `For privacy-related questions, data access requests, or complaints, contact our Data Protection Officer at: Email: agent@landika.net | Address: Westlands, Nairobi, Kenya | Phone: +254 700 000 000. You may also contact the Office of the Data Protection Commissioner, Kenya for complaints regarding data processing.`,
     },
   ]
 

@@ -20,14 +20,14 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://landika.co.ke'),
+  metadataBase: new URL('https://landika.net'),
   title: {
     default: 'Landika | Premier Real Estate Agent in Kenya',
     template: '%s | Landika Real Estate Agent'
   },
   description: 'Kenya\'s premier Real Estate Agent. Verified plots, transparent title searches, and secure agent-led land acquisitions in Nairobi, Kiambu & beyond.',
   alternates: {
-    canonical: 'https://landika.co.ke'
+    canonical: 'https://landika.net'
   },
   openGraph: {
     type: 'website',
@@ -35,9 +35,9 @@ export const metadata: Metadata = {
     siteName: 'Landika Real Estate Agent',
     title: 'Landika | Premier Real Estate Agent in Kenya',
     description: 'Kenya\'s premier Real Estate Agent. Verified plots, transparent title searches, and secure agent-led land acquisitions.',
-    url: 'https://landika.co.ke',
+    url: 'https://landika.net',
     images: [{
-      url: 'https://landika.co.ke/opengraph-image',
+      url: 'https://landika.net/opengraph-image',
       width: 1200,
       height: 630,
       alt: 'Landika Real Estate Agent - Verified Land for Sale in Kenya',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Landika | Premier Real Estate Agent in Kenya',
     description: 'Kenya\'s premier Real Estate Agent. Verified plots, transparent title searches, and secure agent-led land acquisitions.',
-    images: ['https://landika.co.ke/opengraph-image'],
+    images: ['https://landika.net/opengraph-image'],
   },
 }
 
@@ -60,8 +60,8 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'RealEstateAgent',
     name: 'Landika Real Estate Agent',
-    url: 'https://landika.co.ke',
-    logo: 'https://landika.co.ke/icon.svg',
+    url: 'https://landika.net',
+    logo: 'https://landika.net/icon.svg',
     description: 'EARB-registered real estate agent specializing in verified land transactions across Kenya. Title searches, legal conveyancing, and agent-led site visits.',
     foundingDate: '2024',
     numberOfEmployees: { '@type': 'QuantitativeValue', value: '10-50' },
@@ -72,7 +72,7 @@ export default function RootLayout({
       name: 'Estate Agents Registration Board (EARB) License',
       recognizedBy: { '@type': 'Organization', name: 'Estate Agents Registration Board', url: 'https://earb.go.ke' }
     },
-    sameAs: ['https://landika.co.ke/about'],
+    sameAs: ['https://landika.net/about'],
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: '+254-700-000-000',
@@ -219,7 +219,7 @@ export default function RootLayout({
                   </div>
                   <div>
                     <div style={{ color: 'var(--text-muted)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.25rem' }}>Email</div>
-                    <p style={{ color: 'var(--primary)' }}>agent@landika.co.ke</p>
+                    <p style={{ color: 'var(--primary)' }}>agent@landika.net</p>
                   </div>
                   <div>
                     <div style={{ color: 'var(--text-muted)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.25rem' }}>Phone</div>

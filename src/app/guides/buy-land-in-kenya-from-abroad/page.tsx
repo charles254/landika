@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title: 'Buy Land in Kenya from Abroad - Diaspora Guide',
   description: 'How Kenyans abroad can buy land remotely: agent representation, payment methods, legal requirements, and site visit options with Landika.',
   alternates: {
-    canonical: 'https://landika.co.ke/guides/buy-land-in-kenya-from-abroad',
+    canonical: 'https://landika.net/guides/buy-land-in-kenya-from-abroad',
   },
   openGraph: {
     title: 'Buy Land in Kenya from Abroad - Diaspora Guide',
     description: 'How Kenyans abroad can buy land remotely: agent representation, payment methods, legal requirements, and site visit options with Landika.',
-    url: 'https://landika.co.ke/guides/buy-land-in-kenya-from-abroad',
+    url: 'https://landika.net/guides/buy-land-in-kenya-from-abroad',
   },
 }
 
@@ -21,8 +21,8 @@ export default function DiasporaGuide() {
     '@type': 'Article',
     headline: 'Buy Land in Kenya from Abroad - Diaspora Guide',
     description: 'A comprehensive guide for Kenyans in the diaspora on how to purchase verified land remotely with agent representation.',
-    author: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.co.ke' },
-    publisher: { '@type': 'Organization', name: 'Landika Real Estate Agent', logo: { '@type': 'ImageObject', url: 'https://landika.co.ke/icon.svg' } },
+    author: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.net' },
+    publisher: { '@type': 'Organization', name: 'Landika Real Estate Agent', logo: { '@type': 'ImageObject', url: 'https://landika.net/icon.svg' } },
     datePublished: '2026-03-23',
     dateModified: '2026-03-23',
   }
@@ -42,9 +42,9 @@ export default function DiasporaGuide() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.co.ke' },
-      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.co.ke/guides' },
-      { '@type': 'ListItem', position: 3, name: 'Buy Land from Abroad', item: 'https://landika.co.ke/guides/buy-land-in-kenya-from-abroad' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.net' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.net/guides' },
+      { '@type': 'ListItem', position: 3, name: 'Buy Land from Abroad', item: 'https://landika.net/guides/buy-land-in-kenya-from-abroad' },
     ],
   }
 

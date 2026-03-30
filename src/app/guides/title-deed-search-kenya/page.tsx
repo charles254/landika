@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title: 'Title Deed Search Kenya - Guide',
   description: 'How to conduct an official title deed search in Kenya: step-by-step process at the Ministry of Lands, costs (KES 500-1,000), what to check, and red flags to avoid.',
   alternates: {
-    canonical: 'https://landika.co.ke/guides/title-deed-search-kenya',
+    canonical: 'https://landika.net/guides/title-deed-search-kenya',
   },
   openGraph: {
     title: 'Title Deed Search Kenya - Guide',
     description: 'How to conduct an official title deed search in Kenya: step-by-step process at the Ministry of Lands, costs, what to check, and red flags to avoid.',
-    url: 'https://landika.co.ke/guides/title-deed-search-kenya',
+    url: 'https://landika.net/guides/title-deed-search-kenya',
   },
 }
 
@@ -28,16 +28,16 @@ export default function TitleDeedSearchGuide() {
         '@type': 'Person',
         name: 'Landika Editorial Team',
         jobTitle: 'Licensed Real Estate Advisors',
-        url: 'https://landika.co.ke/about',
-        worksFor: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.co.ke' },
+        url: 'https://landika.net/about',
+        worksFor: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.net' },
         hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Professional License', name: 'EARB-Certified Real Estate Agents' },
       },
       {
         '@type': 'Organization',
         name: 'Landika Real Estate Agent',
-        url: 'https://landika.co.ke',
+        url: 'https://landika.net',
         description: 'EARB-registered real estate agent specializing in verified land transactions in Kenya',
-        sameAs: ['https://landika.co.ke/about'],
+        sameAs: ['https://landika.net/about'],
       }
     ],
     step: [
@@ -66,9 +66,9 @@ export default function TitleDeedSearchGuide() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.co.ke' },
-      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.co.ke/guides' },
-      { '@type': 'ListItem', position: 3, name: 'Title Deed Search', item: 'https://landika.co.ke/guides/title-deed-search-kenya' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.net' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.net/guides' },
+      { '@type': 'ListItem', position: 3, name: 'Title Deed Search', item: 'https://landika.net/guides/title-deed-search-kenya' },
     ],
   }
 

@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   title: 'Terms and Conditions',
   description: 'Terms and conditions for using Landika Real Estate Agent services in Kenya. Read our service terms, liability limitations, and transaction policies.',
   alternates: {
-    canonical: 'https://landika.co.ke/terms',
+    canonical: 'https://landika.net/terms',
   },
   openGraph: {
     title: 'Terms and Conditions - Landika Real Estate Agent',
     description: 'Terms and conditions for Landika real estate agent services in Kenya.',
-    url: 'https://landika.co.ke/terms',
+    url: 'https://landika.net/terms',
   },
 }
 
@@ -19,8 +19,8 @@ export default function TermsPage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.co.ke' },
-      { '@type': 'ListItem', position: 2, name: 'Terms and Conditions', item: 'https://landika.co.ke/terms' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.net' },
+      { '@type': 'ListItem', position: 2, name: 'Terms and Conditions', item: 'https://landika.net/terms' },
     ],
   }
 
@@ -63,7 +63,7 @@ export default function TermsPage() {
     },
     {
       title: '10. Contact',
-      content: `For questions about these terms, contact us at agent@landika.co.ke or visit our office at Westlands, Nairobi, Kenya.`,
+      content: `For questions about these terms, contact us at agent@landika.net or visit our office at Westlands, Nairobi, Kenya.`,
     },
   ]
 

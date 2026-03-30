@@ -21,12 +21,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: {
-      canonical: `https://landika.co.ke/${category}`
+      canonical: `https://landika.net/${category}`
     },
     openGraph: {
       title,
       description,
-      url: `https://landika.co.ke/${category}`,
+      url: `https://landika.net/${category}`,
     },
   }
 }
@@ -53,13 +53,13 @@ export default async function CategoryPage({ params }: Props) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://landika.co.ke'
+        item: 'https://landika.net'
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: formattedCategory,
-        item: `https://landika.co.ke/${category}`
+        item: `https://landika.net/${category}`
       }
     ]
   }

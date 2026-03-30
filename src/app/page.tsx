@@ -56,10 +56,10 @@ export default async function Home() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Landika Real Estate Agent',
-    url: 'https://landika.co.ke',
+    url: 'https://landika.net',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://landika.co.ke/plots-for-sale?q={search_term_string}',
+      target: 'https://landika.net/plots-for-sale?q={search_term_string}',
       'query-input': 'required name=search_term_string'
     }
   }

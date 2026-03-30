@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title: 'Land Transfer Process Kenya',
   description: 'How to transfer land ownership in Kenya: documents needed, stamp duty, Lands Registry process, timelines (30-90 days), and costs involved.',
   alternates: {
-    canonical: 'https://landika.co.ke/guides/land-transfer-process',
+    canonical: 'https://landika.net/guides/land-transfer-process',
   },
   openGraph: {
     title: 'Land Transfer Process Kenya',
     description: 'How to transfer land ownership in Kenya: documents, stamp duty, Lands Registry process, timelines, and costs.',
-    url: 'https://landika.co.ke/guides/land-transfer-process',
+    url: 'https://landika.net/guides/land-transfer-process',
   },
 }
 
@@ -26,16 +26,16 @@ export default function LandTransferProcessGuide() {
         '@type': 'Person',
         name: 'Landika Editorial Team',
         jobTitle: 'Licensed Real Estate Advisors',
-        url: 'https://landika.co.ke/about',
-        worksFor: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.co.ke' },
+        url: 'https://landika.net/about',
+        worksFor: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.net' },
         hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Professional License', name: 'EARB-Certified Real Estate Agents' },
       },
       {
         '@type': 'Organization',
         name: 'Landika Real Estate Agent',
-        url: 'https://landika.co.ke',
+        url: 'https://landika.net',
         description: 'EARB-registered real estate agent specializing in verified land transactions in Kenya',
-        sameAs: ['https://landika.co.ke/about'],
+        sameAs: ['https://landika.net/about'],
       }
     ],
     estimatedCost: { '@type': 'MonetaryAmount', currency: 'KES', value: '50000-300000' },
@@ -64,9 +64,9 @@ export default function LandTransferProcessGuide() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.co.ke' },
-      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.co.ke/guides' },
-      { '@type': 'ListItem', position: 3, name: 'Land Transfer Process', item: 'https://landika.co.ke/guides/land-transfer-process' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.net' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.net/guides' },
+      { '@type': 'ListItem', position: 3, name: 'Land Transfer Process', item: 'https://landika.net/guides/land-transfer-process' },
     ],
   }
 

@@ -4,12 +4,12 @@ export const metadata: Metadata = {
   title: 'Book a Free Consultation - Registered Real Estate Agent',
   description: 'Book a free consultation with a Registered Real Estate Agent in Kenya. Expert guidance on verified land acquisitions, title searches & transactions.',
   alternates: {
-    canonical: 'https://landika.co.ke/consult',
+    canonical: 'https://landika.net/consult',
   },
   openGraph: {
     title: 'Book a Free Consultation - Registered Real Estate Agent',
     description: 'Book a free consultation with a Registered Real Estate Agent in Kenya. Expert guidance on verified land acquisitions, title searches & transactions.',
-    url: 'https://landika.co.ke/consult',
+    url: 'https://landika.net/consult',
   },
 }
 
@@ -18,11 +18,11 @@ export default function ConsultLayout({ children }: { children: React.ReactNode 
     '@context': 'https://schema.org',
     '@type': 'ContactPage',
     name: 'Landika Agent Consultation',
-    url: 'https://landika.co.ke/consult',
+    url: 'https://landika.net/consult',
     mainEntity: {
       '@type': 'RealEstateAgent',
       name: 'Landika Real Estate Agent',
-      url: 'https://landika.co.ke',
+      url: 'https://landika.net',
     },
   }
 

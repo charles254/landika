@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   title: 'Land Buying Guides - Expert Resources for Kenya',
   description: 'Expert guides on buying land in Kenya: step-by-step process, costs, title searches, stamp duty, fraud prevention, and top investment locations.',
   alternates: {
-    canonical: 'https://landika.co.ke/guides',
+    canonical: 'https://landika.net/guides',
   },
   openGraph: {
     title: 'Land Buying Guides - Expert Resources for Kenya',
     description: 'Expert guides on buying land in Kenya: step-by-step process, costs, legal requirements, and diaspora investment.',
-    url: 'https://landika.co.ke/guides',
+    url: 'https://landika.net/guides',
   },
 }
 
@@ -57,8 +57,8 @@ export default function GuidesIndex() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.co.ke' },
-      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.co.ke/guides' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.net' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.net/guides' },
     ],
   }
 

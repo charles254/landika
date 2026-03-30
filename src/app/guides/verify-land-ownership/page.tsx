@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title: 'How to Verify Land Ownership in Kenya - Complete Guide',
   description: 'Step-by-step guide to verifying land ownership in Kenya: title search, surveyor verification, county records check, and online options via Ardhisasa.',
   alternates: {
-    canonical: 'https://landika.co.ke/guides/verify-land-ownership',
+    canonical: 'https://landika.net/guides/verify-land-ownership',
   },
   openGraph: {
     title: 'How to Verify Land Ownership in Kenya - Complete Guide',
     description: 'Step-by-step guide to verifying land ownership in Kenya: title search, surveyor verification, county records, and online options.',
-    url: 'https://landika.co.ke/guides/verify-land-ownership',
+    url: 'https://landika.net/guides/verify-land-ownership',
   },
 }
 
@@ -26,16 +26,16 @@ export default function VerifyLandOwnershipGuide() {
         '@type': 'Person',
         name: 'Landika Editorial Team',
         jobTitle: 'Licensed Real Estate Advisors',
-        url: 'https://landika.co.ke/about',
-        worksFor: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.co.ke' },
+        url: 'https://landika.net/about',
+        worksFor: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.net' },
         hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Professional License', name: 'EARB-Certified Real Estate Agents' },
       },
       {
         '@type': 'Organization',
         name: 'Landika Real Estate Agent',
-        url: 'https://landika.co.ke',
+        url: 'https://landika.net',
         description: 'EARB-registered real estate agent specializing in verified land transactions in Kenya',
-        sameAs: ['https://landika.co.ke/about'],
+        sameAs: ['https://landika.net/about'],
       }
     ],
     estimatedCost: { '@type': 'MonetaryAmount', currency: 'KES', value: '1000-50000' },
@@ -64,9 +64,9 @@ export default function VerifyLandOwnershipGuide() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.co.ke' },
-      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.co.ke/guides' },
-      { '@type': 'ListItem', position: 3, name: 'Verify Land Ownership', item: 'https://landika.co.ke/guides/verify-land-ownership' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.net' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.net/guides' },
+      { '@type': 'ListItem', position: 3, name: 'Verify Land Ownership', item: 'https://landika.net/guides/verify-land-ownership' },
     ],
   }
 

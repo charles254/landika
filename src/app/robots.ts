@@ -19,6 +19,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/_next/'],
       },
     ],
-    sitemap: 'https://landika.co.ke/sitemap.xml',
+    sitemap: 'https://landika.net/sitemap.xml',
   }
 }

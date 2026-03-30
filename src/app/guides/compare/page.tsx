@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   title: 'Compare Investment Locations - Town vs Town Analysis',
   description: 'Compare Kenya\'s top land investment locations side-by-side: prices, appreciation rates, infrastructure, and growth drivers for satellite towns.',
   alternates: {
-    canonical: 'https://landika.co.ke/guides/compare',
+    canonical: 'https://landika.net/guides/compare',
   },
   openGraph: {
     title: 'Compare Investment Locations - Town vs Town Analysis',
     description: 'Compare Kenya\'s top land investment locations side-by-side: prices, appreciation, infrastructure, and growth drivers.',
-    url: 'https://landika.co.ke/guides/compare',
+    url: 'https://landika.net/guides/compare',
   },
 }
 
@@ -54,9 +54,9 @@ export default function CompareIndex() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.co.ke' },
-      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.co.ke/guides' },
-      { '@type': 'ListItem', position: 3, name: 'Compare Locations', item: 'https://landika.co.ke/guides/compare' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.net' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.net/guides' },
+      { '@type': 'ListItem', position: 3, name: 'Compare Locations', item: 'https://landika.net/guides/compare' },
     ],
   }
 

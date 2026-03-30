@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title: 'Avoid Land Fraud Kenya - Guide',
   description: 'Protect yourself from land scams in Kenya: common fraud tactics, red flags to watch for, verification steps, and how to ensure a safe land purchase.',
   alternates: {
-    canonical: 'https://landika.co.ke/guides/avoid-land-fraud-kenya',
+    canonical: 'https://landika.net/guides/avoid-land-fraud-kenya',
   },
   openGraph: {
     title: 'Avoid Land Fraud Kenya - Guide',
     description: 'Protect yourself from land scams in Kenya: common fraud tactics, red flags, verification steps, and how to ensure a safe purchase.',
-    url: 'https://landika.co.ke/guides/avoid-land-fraud-kenya',
+    url: 'https://landika.net/guides/avoid-land-fraud-kenya',
   },
 }
 
@@ -26,19 +26,19 @@ export default function AvoidLandFraudGuide() {
         '@type': 'Person',
         name: 'Landika Editorial Team',
         jobTitle: 'Licensed Real Estate Advisors',
-        url: 'https://landika.co.ke/about',
-        worksFor: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.co.ke' },
+        url: 'https://landika.net/about',
+        worksFor: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.net' },
         hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Professional License', name: 'EARB-Certified Real Estate Agents' },
       },
       {
         '@type': 'Organization',
         name: 'Landika Real Estate Agent',
-        url: 'https://landika.co.ke',
+        url: 'https://landika.net',
         description: 'EARB-registered real estate agent specializing in verified land transactions in Kenya',
-        sameAs: ['https://landika.co.ke/about'],
+        sameAs: ['https://landika.net/about'],
       }
     ],
-    publisher: { '@type': 'Organization', name: 'Landika Real Estate Agent', logo: { '@type': 'ImageObject', url: 'https://landika.co.ke/icon.svg' } },
+    publisher: { '@type': 'Organization', name: 'Landika Real Estate Agent', logo: { '@type': 'ImageObject', url: 'https://landika.net/icon.svg' } },
     datePublished: '2026-03-23',
     dateModified: '2026-03-23',
   }
@@ -59,9 +59,9 @@ export default function AvoidLandFraudGuide() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.co.ke' },
-      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.co.ke/guides' },
-      { '@type': 'ListItem', position: 3, name: 'Avoid Land Fraud', item: 'https://landika.co.ke/guides/avoid-land-fraud-kenya' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.net' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.net/guides' },
+      { '@type': 'ListItem', position: 3, name: 'Avoid Land Fraud', item: 'https://landika.net/guides/avoid-land-fraud-kenya' },
     ],
   }
 

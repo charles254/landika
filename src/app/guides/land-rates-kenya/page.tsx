@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title: 'Land Rates Kenya 2026 - Guide',
   description: 'Land rates in Kenya explained: how county governments calculate rates, payment process, how to get clearance certificates, and penalties for non-payment.',
   alternates: {
-    canonical: 'https://landika.co.ke/guides/land-rates-kenya',
+    canonical: 'https://landika.net/guides/land-rates-kenya',
   },
   openGraph: {
     title: 'Land Rates Kenya 2026 - Guide',
     description: 'Land rates in Kenya: how they\'re calculated, payment methods, clearance certificates, and what happens if you don\'t pay.',
-    url: 'https://landika.co.ke/guides/land-rates-kenya',
+    url: 'https://landika.net/guides/land-rates-kenya',
   },
 }
 
@@ -26,19 +26,19 @@ export default function LandRatesGuide() {
         '@type': 'Person',
         name: 'Landika Editorial Team',
         jobTitle: 'Licensed Real Estate Advisors',
-        url: 'https://landika.co.ke/about',
-        worksFor: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.co.ke' },
+        url: 'https://landika.net/about',
+        worksFor: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.net' },
         hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Professional License', name: 'EARB-Certified Real Estate Agents' },
       },
       {
         '@type': 'Organization',
         name: 'Landika Real Estate Agent',
-        url: 'https://landika.co.ke',
+        url: 'https://landika.net',
         description: 'EARB-registered real estate agent specializing in verified land transactions in Kenya',
-        sameAs: ['https://landika.co.ke/about'],
+        sameAs: ['https://landika.net/about'],
       }
     ],
-    publisher: { '@type': 'Organization', name: 'Landika Real Estate Agent', logo: { '@type': 'ImageObject', url: 'https://landika.co.ke/icon.svg' } },
+    publisher: { '@type': 'Organization', name: 'Landika Real Estate Agent', logo: { '@type': 'ImageObject', url: 'https://landika.net/icon.svg' } },
     datePublished: '2026-03-23',
     dateModified: '2026-03-23',
   }
@@ -59,9 +59,9 @@ export default function LandRatesGuide() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.co.ke' },
-      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.co.ke/guides' },
-      { '@type': 'ListItem', position: 3, name: 'Land Rates Kenya', item: 'https://landika.co.ke/guides/land-rates-kenya' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.net' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.net/guides' },
+      { '@type': 'ListItem', position: 3, name: 'Land Rates Kenya', item: 'https://landika.net/guides/land-rates-kenya' },
     ],
   }
 

@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title: 'Best Places to Buy Land Kenya 2026',
   description: 'Best places to buy land in Kenya in 2026: Ruiru, Kitengela, Juja, Joska, Syokimau, Naivasha & more. Prices, growth rates, and infrastructure driving value.',
   alternates: {
-    canonical: 'https://landika.co.ke/guides/best-places-to-buy-land-in-kenya',
+    canonical: 'https://landika.net/guides/best-places-to-buy-land-in-kenya',
   },
   openGraph: {
     title: 'Best Places to Buy Land Kenya 2026',
     description: 'Top locations to buy land in Kenya: satellite towns with 10-20% annual appreciation, infrastructure growth, and affordable entry prices.',
-    url: 'https://landika.co.ke/guides/best-places-to-buy-land-in-kenya',
+    url: 'https://landika.net/guides/best-places-to-buy-land-in-kenya',
   },
 }
 
@@ -26,19 +26,19 @@ export default function BestPlacesGuide() {
         '@type': 'Person',
         name: 'Landika Editorial Team',
         jobTitle: 'Licensed Real Estate Advisors',
-        url: 'https://landika.co.ke/about',
-        worksFor: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.co.ke' },
+        url: 'https://landika.net/about',
+        worksFor: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.net' },
         hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Professional License', name: 'EARB-Certified Real Estate Agents' },
       },
       {
         '@type': 'Organization',
         name: 'Landika Real Estate Agent',
-        url: 'https://landika.co.ke',
+        url: 'https://landika.net',
         description: 'EARB-registered real estate agent specializing in verified land transactions in Kenya',
-        sameAs: ['https://landika.co.ke/about'],
+        sameAs: ['https://landika.net/about'],
       }
     ],
-    publisher: { '@type': 'Organization', name: 'Landika Real Estate Agent', logo: { '@type': 'ImageObject', url: 'https://landika.co.ke/icon.svg' } },
+    publisher: { '@type': 'Organization', name: 'Landika Real Estate Agent', logo: { '@type': 'ImageObject', url: 'https://landika.net/icon.svg' } },
     datePublished: '2026-03-23',
     dateModified: '2026-03-23',
   }
@@ -58,9 +58,9 @@ export default function BestPlacesGuide() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.co.ke' },
-      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.co.ke/guides' },
-      { '@type': 'ListItem', position: 3, name: 'Best Places to Buy Land', item: 'https://landika.co.ke/guides/best-places-to-buy-land-in-kenya' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.net' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.net/guides' },
+      { '@type': 'ListItem', position: 3, name: 'Best Places to Buy Land', item: 'https://landika.net/guides/best-places-to-buy-land-in-kenya' },
     ],
   }
 

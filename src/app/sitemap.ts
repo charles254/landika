@@ -4,7 +4,7 @@ import { getAllLocations } from '@/lib/data_layer'
 export const revalidate = 3600 // Cache sitemap for 1 hour
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://landika.co.ke'
+  const baseUrl = 'https://landika.net'
   const allLocations = await getAllLocations()
   
   // Build a fast lookup map for parent county slugs

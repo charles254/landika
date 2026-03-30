@@ -68,12 +68,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: {
-      canonical: `https://landika.co.ke/${category}/${county}/${town}`
+      canonical: `https://landika.net/${category}/${county}/${town}`
     },
     openGraph: {
       title,
       description,
-      url: `https://landika.co.ke/${category}/${county}/${town}`,
+      url: `https://landika.net/${category}/${county}/${town}`,
     },
   }
 }
@@ -129,7 +129,7 @@ export default async function PSEOPage({ params }: Props) {
           '@type': 'RealEstateListing',
           name: prop.title,
           description: prop.description,
-          url: `https://landika.co.ke/${category}/${county}/${town}`,
+          url: `https://landika.net/${category}/${county}/${town}`,
           image: prop.images[0],
           offers: {
             '@type': 'Offer',
@@ -139,7 +139,7 @@ export default async function PSEOPage({ params }: Props) {
             seller: {
               '@type': 'RealEstateAgent',
               name: 'Landika Real Estate Agent',
-              url: 'https://landika.co.ke'
+              url: 'https://landika.net'
             }
           }
         }
@@ -165,19 +165,19 @@ export default async function PSEOPage({ params }: Props) {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://landika.co.ke'
+          item: 'https://landika.net'
         },
         {
           '@type': 'ListItem',
           position: 2,
           name: formattedCat,
-          item: `https://landika.co.ke/${category}`
+          item: `https://landika.net/${category}`
         },
         {
           '@type': 'ListItem',
           position: 3,
           name: formattedTown,
-          item: `https://landika.co.ke/${category}/${county}/${town}`
+          item: `https://landika.net/${category}/${county}/${town}`
         }
       ]
     }

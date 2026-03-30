@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   title: 'About Landika - Kenya Agent',
   description: 'Landika is a registered real estate agent in Kenya specializing in verified land acquisition. Learn about our mission, values, and commitment to secure transactions.',
   alternates: {
-    canonical: 'https://landika.co.ke/about',
+    canonical: 'https://landika.net/about',
   },
   openGraph: {
     title: 'About Landika - Kenya Agent',
     description: 'Learn about Landika — our mission, values, and commitment to verified, secure land transactions in Kenya.',
-    url: 'https://landika.co.ke/about',
+    url: 'https://landika.net/about',
   },
 }
 
@@ -19,8 +19,8 @@ export default function AboutPage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.co.ke' },
-      { '@type': 'ListItem', position: 2, name: 'About', item: 'https://landika.co.ke/about' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.net' },
+      { '@type': 'ListItem', position: 2, name: 'About', item: 'https://landika.net/about' },
     ],
   }
 

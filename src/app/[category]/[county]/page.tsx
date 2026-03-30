@@ -22,8 +22,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    alternates: { canonical: `https://landika.co.ke/${category}/${county}` },
-    openGraph: { title, description, url: `https://landika.co.ke/${category}/${county}` },
+    alternates: { canonical: `https://landika.net/${category}/${county}` },
+    openGraph: { title, description, url: `https://landika.net/${category}/${county}` },
   }
 }
 
@@ -50,9 +50,9 @@ export default async function CountyPage({ params }: Props) {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.co.ke' },
-        { '@type': 'ListItem', position: 2, name: formattedCat, item: `https://landika.co.ke/${category}` },
-        { '@type': 'ListItem', position: 3, name: `${formattedCounty} County`, item: `https://landika.co.ke/${category}/${county}` },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.net' },
+        { '@type': 'ListItem', position: 2, name: formattedCat, item: `https://landika.net/${category}` },
+        { '@type': 'ListItem', position: 3, name: `${formattedCounty} County`, item: `https://landika.net/${category}/${county}` },
       ],
     },
     // Place schema for county-level geographic entity

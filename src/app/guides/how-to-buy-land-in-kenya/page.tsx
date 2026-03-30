@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   title: 'How to Buy Land in Kenya - Guide',
   description: 'Complete guide to buying land in Kenya: title search process, stamp duty rates, legal costs, sale agreements, and pitfalls to avoid.',
   alternates: {
-    canonical: 'https://landika.co.ke/guides/how-to-buy-land-in-kenya',
+    canonical: 'https://landika.net/guides/how-to-buy-land-in-kenya',
   },
   openGraph: {
     title: 'How to Buy Land in Kenya - Guide',
     description: 'Complete guide to buying land in Kenya: title search process, stamp duty rates, legal costs, sale agreements, and pitfalls to avoid.',
-    url: 'https://landika.co.ke/guides/how-to-buy-land-in-kenya',
+    url: 'https://landika.net/guides/how-to-buy-land-in-kenya',
   },
 }
 
@@ -30,16 +30,16 @@ export default function HowToBuyLandGuide() {
         '@type': 'Person',
         name: 'Landika Editorial Team',
         jobTitle: 'Licensed Real Estate Advisors',
-        url: 'https://landika.co.ke/about',
-        worksFor: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.co.ke' },
+        url: 'https://landika.net/about',
+        worksFor: { '@type': 'Organization', name: 'Landika Real Estate Agent', url: 'https://landika.net' },
         hasCredential: { '@type': 'EducationalOccupationalCredential', credentialCategory: 'Professional License', name: 'EARB-Certified Real Estate Agents' },
       },
       {
         '@type': 'Organization',
         name: 'Landika Real Estate Agent',
-        url: 'https://landika.co.ke',
+        url: 'https://landika.net',
         description: 'EARB-registered real estate agent specializing in verified land transactions in Kenya',
-        sameAs: ['https://landika.co.ke/about'],
+        sameAs: ['https://landika.net/about'],
       }
     ],
     step: [
@@ -69,9 +69,9 @@ export default function HowToBuyLandGuide() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.co.ke' },
-      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.co.ke/guides' },
-      { '@type': 'ListItem', position: 3, name: 'How to Buy Land in Kenya', item: 'https://landika.co.ke/guides/how-to-buy-land-in-kenya' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://landika.net' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://landika.net/guides' },
+      { '@type': 'ListItem', position: 3, name: 'How to Buy Land in Kenya', item: 'https://landika.net/guides/how-to-buy-land-in-kenya' },
     ],
   }
 
